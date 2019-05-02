@@ -1,0 +1,1 @@
+watch -n 900 "bash date.sh; bash run.sh"
