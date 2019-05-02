@@ -1,3 +1,5 @@
+# Code mostly from https://www.twilio.com/blog/2017/12/sentiment-analysis-scikit-learn.html
+
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 
