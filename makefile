@@ -12,3 +12,6 @@ neg.txt : new_training.txt
 
 pos.txt: new_training.txt
         cat new_training.txt | egrep '^"4' > $@
+        
+clean:
+        rm -f good_lines.txt sorted_training.txt new_training.txt neg.txt pos.txt
